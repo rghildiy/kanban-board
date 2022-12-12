@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<testsuite name="HeadlessChrome 108.0.5359 (Windows 10.0.0)" package="unit" timestamp="2022-12-12T14:51:16" id="0" hostname="IN3044567W2" tests="10" errors="0" failures="0" time="0.166">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/108.0.5359.99 Safari/537.36"/>
+  </properties>
+  <testcase name="KanbanBoard Clicking on delete should delete the task in stage 2" time="0.059" classname=".KanbanBoard"/>
+  <testcase name="KanbanBoard Clicking on delete should delete the task in stage 1" time="0.017" classname=".KanbanBoard"/>
+  <testcase name="KanbanBoard For a task in stage 0, can be moved forward till stage 4 and check for icons are enabled/disabled correctly" time="0.014" classname=".KanbanBoard"/>
+  <testcase name="KanbanBoard Clicking on delete should delete the task in stage 3" time="0.014" classname=".KanbanBoard"/>
+  <testcase name="KanbanBoard Clicking on delete should delete the task in stage 0" time="0.01" classname=".KanbanBoard"/>
+  <testcase name="KanbanBoard For a task in stage 0, backward icon is disabled and forward icon is enabled" time="0.007" classname=".KanbanBoard"/>
+  <testcase name="KanbanBoard Clicking on Create Task Button should add it to first stage and do nothing if input is empty" time="0.007" classname=".KanbanBoard"/>
+  <testcase name="KanbanBoard after many forward and back operations, tasks are in correct state" time="0.015" classname=".KanbanBoard"/>
+  <testcase name="KanbanBoard For a task in stage 4, can be moved backward till stage 0 and check for icons are enabled/disabled correctly" time="0.014" classname=".KanbanBoard"/>
+  <testcase name="KanbanBoard tasks are in correct state after multiple move and deletions" time="0.009" classname=".KanbanBoard"/>
+  <system-out>
+    <![CDATA[HeadlessChrome 108.0.5359 (Windows 10.0.0) LOG: 'task 1'
+,HeadlessChrome 108.0.5359 (Windows 10.0.0) LOG: 'task 1'
+,HeadlessChrome 108.0.5359 (Windows 10.0.0) LOG: 'task 1'
+,HeadlessChrome 108.0.5359 (Windows 10.0.0) LOG: 'task 1'
+,HeadlessChrome 108.0.5359 (Windows 10.0.0) LOG: 'task 1'
+,HeadlessChrome 108.0.5359 (Windows 10.0.0) LOG: 'task 1'
+,HeadlessChrome 108.0.5359 (Windows 10.0.0) LOG: 'task 1'
+,HeadlessChrome 108.0.5359 (Windows 10.0.0) LOG: ''
+,HeadlessChrome 108.0.5359 (Windows 10.0.0) LOG: 'task 1'
+,HeadlessChrome 108.0.5359 (Windows 10.0.0) LOG: 'task 2'
+,HeadlessChrome 108.0.5359 (Windows 10.0.0) LOG: 'task 3'
+,HeadlessChrome 108.0.5359 (Windows 10.0.0) LOG: 'task 4'
+,HeadlessChrome 108.0.5359 (Windows 10.0.0) LOG: 'task 5'
+,HeadlessChrome 108.0.5359 (Windows 10.0.0) LOG: 'task 6'
+,HeadlessChrome 108.0.5359 (Windows 10.0.0) LOG: 'task 7'
+,HeadlessChrome 108.0.5359 (Windows 10.0.0) LOG: 'task 8'
+,HeadlessChrome 108.0.5359 (Windows 10.0.0) LOG: 'task 1'
+,HeadlessChrome 108.0.5359 (Windows 10.0.0) LOG: 'task 1'
+,HeadlessChrome 108.0.5359 (Windows 10.0.0) LOG: 'task 2'
+,HeadlessChrome 108.0.5359 (Windows 10.0.0) LOG: 'task 3'
+
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
